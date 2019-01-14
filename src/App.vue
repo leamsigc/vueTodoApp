@@ -42,7 +42,7 @@ export default {
         .then(res => {
           this.todos = [...this.todos, res];
         })
-        .catch(err => console.log(err));
+        .catch(err => trow(err));
     }
   },
   created() {
